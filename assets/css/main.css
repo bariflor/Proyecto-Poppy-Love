@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  width: 100%; }
+  width: 100%;
+  font-family: 'Slabo 27px', serif; }
 
 #portada {
   background-image: url("../img/banner.jpg");
@@ -83,7 +84,7 @@ h5 {
 #seccion__3--row3 {
   background-color: #2b343d;
   width: 100%;
-  height: 282px;
+  height: 300px;
   margin-bottom: 0;
   color: white;
   font-family: 'Baloo', cursive; }
@@ -94,5 +95,138 @@ h5 {
     font-size: 20px;
     line-height: 28px;
     color: #A2B7BA; }
+
+.fondo .row {
+  margin-bottom: 0; }
+.fondo .todo-clase .textosLu {
+  background-color: #374288;
+  margin-top: 30px;
+  height: 250px;
+  width: 100%; }
+.fondo .todo-clase .line {
+  height: 2px;
+  background-color: #261581;
+  border-color: #3119b5;
+  width: 100%; }
+.fondo .todo-clase p {
+  color: #fff;
+  font-size: 20px; }
+
+.fondo {
+  padding: 0;
+  margin: 0; }
+  .fondo .todo-clase {
+    background-color: #374288;
+    /* height: $fondo; */
+    width: 100%; }
+    .fondo .todo-clase .clas1 {
+      background-color: #30019a;
+      height: 340px;
+      width: 100%; }
+      .fondo .todo-clase .clas1 .lu {
+        margin-bottom: 0;
+        margin-left: 8%;
+        margin-right: 0;
+        margin-top: 8%; }
+    .fondo .todo-clase .clas2 {
+      background-color: #314c96;
+      height: 340px;
+      width: 100%; }
+      .fondo .todo-clase .clas2 .lu1 {
+        margin-bottom: 0;
+        margin-left: 8%;
+        margin-right: 0;
+        margin-top: 8%; }
+    .fondo .todo-clase .clas3 {
+      background-color: #314c96;
+      height: 340px;
+      width: 100%; }
+      .fondo .todo-clase .clas3 .lu2 {
+        margin-bottom: 0;
+        margin-left: 8%;
+        margin-right: 0;
+        margin-top: 8%; }
+    .fondo .todo-clase .clas4 {
+      background-color: #30019a;
+      height: 340px;
+      width: 100%; }
+      .fondo .todo-clase .clas4 .lu3 {
+        margin-bottom: 0;
+        margin-left: 8%;
+        margin-right: 0;
+        margin-top: 8%; }
+    .fondo .todo-clase .clas5 {
+      background-color: #30019a;
+      height: 340px;
+      width: 100%; }
+      .fondo .todo-clase .clas5 .lu4 {
+        margin-bottom: 0;
+        margin-left: 8%;
+        margin-right: 0;
+        margin-top: 8%; }
+    .fondo .todo-clase .clas6 {
+      background-color: #314c96;
+      height: 340px;
+      width: 100%; }
+      .fondo .todo-clase .clas6 .lu5 {
+        margin-bottom: 0;
+        margin-left: 8%;
+        margin-right: 0;
+        margin-top: 8%; }
+    .fondo .todo-clase h3 {
+      color: #fff; }
+    .fondo .todo-clase h4 {
+      color: #fff; }
+    .fondo .todo-clase p {
+      color: #c7c7c7;
+      font-size: 20px; }
+
+.flex-container .sectionL .imgLu {
+  background-image: url(../img/banner.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  height-left: 60px;
+  width: 100%;
+  color: #fff; }
+  .flex-container .sectionL .imgLu .fondo-oscuro {
+    background-color: rgba(64, 59, 38, 0.72);
+    height: 300px;
+    width: 100%; }
+.flex-container .sectionL .imgLu1 {
+  background-image: url(../img/banner.jpg);
+  background-position: bottom;
+  height: 590px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .flex-container .sectionL .imgLu1 .fondo-oscuro1 {
+    background-color: rgba(64, 59, 38, 0.72);
+    height: 300px;
+    width: 100%; }
+    .flex-container .sectionL .imgLu1 .fondo-oscuro1 .color .waves-effect {
+      height: 50px;
+      width: 50%; }
+  .flex-container .sectionL .imgLu1 h4 {
+    color: #fff; }
+  .flex-container .sectionL .imgLu1 p {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 5%; }
+  .flex-container .sectionL .imgLu1 .transparent {
+    margin-top: 4%;
+    border-style: groove;
+    height: 50px;
+    width: 50%; }
+  .flex-container .sectionL .imgLu1 .color {
+    margin-top: 4%; }
+  .flex-container .sectionL .imgLu1 .fondo-oscuro {
+    background-color: rgba(255, 255, 255, 0.94);
+    height: 300px;
+    width: 100%; }
+    .flex-container .sectionL .imgLu1 .fondo-oscuro .icon-mail {
+      color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
